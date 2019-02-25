@@ -191,3 +191,46 @@
     width: 480px;
     height: 374px;
 }
+
+.services {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    color: #4e4e4e;
+    font-size: 36px; /* Приближение из-за подстановки шрифтов */
+    line-height: 3rem; /* Приближение из-за подстановки шрифтов */
+}
+
+.services-tabs {
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+    color: #717171;
+    font-size: 15.98px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 40px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    transform: scaleY(1.0009);
+}
+
+.services-tabs-item {
+    text-align: center;
+    width: 140px;
+    height: 60px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 1.5rem;
+}
+
+.services-tabs-item:hover {
+    background-color: #18cfab;
+}
+
+.section-2-background {
+    background-color: rgba(0, 0, 0, 0.78);
+    width: 1920px;
+    height: 474px;
+}
